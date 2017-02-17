@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Exercises">
+    <item android:title="@string/exercises">
         <menu>
             <item
                 android:id="@+id/math"
-                android:title="Math" />
+                android:title="@string/math" />
             <item
                 android:id="@+id/spanish"
-                android:title="Spanish" />
+                android:title="@string/spanish" />
         </menu>
     </item>
 
-    <item android:title="Extras">
+    <item android:title="@string/extras">
         <menu>
             <item
                 android:id="@+id/competencies"
-                android:title="Competencies" />
+                android:title="@string/competencies" />
             <item
                 android:id="@+id/about"
-                android:title="About" />
+                android:title="@string/about" />
         </menu>
     </item>
 

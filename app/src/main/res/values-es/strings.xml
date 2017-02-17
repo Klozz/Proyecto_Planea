@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Digital Planea</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="navigation_drawer_close">Cerrar menu de navegación</string>
+    <string name="navigation_drawer_open">Abrir menu de navegación</string>
+    <string name="competencies">Competencias</string>
+    <string name="math">Matemáticas</string>
+    <string name="spanish">Español</string>
+    <string name="about">Acerca de</string>
+    <string name="exercises">Ejercicios</string>
+    <string name="extras">Extras</string>
+</resources>
