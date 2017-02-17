@@ -15,13 +15,6 @@ public class about extends Activity {
 
             setContentView(R.layout.about);
 
-           /* DisplayMetrics dm = new DisplayMetrics();
-            getWindowManager().getDefaultDisplay().getMetrics(dm);
-            int Width=dm.widthPixels;
-            int height = dm.heightPixels;
-
-            getWindow().setLayout((int)(Width*.8),(int)(height*.5)); */
-
         }
 
 }
