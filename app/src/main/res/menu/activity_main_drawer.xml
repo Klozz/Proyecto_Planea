@@ -19,7 +19,7 @@
                 android:title="@string/competencies" />
             <item
                 android:id="@+id/about"
-                android:title="@string/about" />
+                android:title="@string/page" />
         </menu>
     </item>
 

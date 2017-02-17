@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Digital Planea</string>
-    <string name="action_settings">Ajustes</string>
+    <string name="action_settings">Acerca de</string>
     <string name="navigation_drawer_close">Cerrar menu de navegación</string>
     <string name="navigation_drawer_open">Abrir menu de navegación</string>
     <string name="competencies">Competencias</string>
     <string name="math">Matemáticas</string>
     <string name="spanish">Español</string>
-    <string name="about">Acerca de</string>
+    <string name="page">Pagina Oficial</string>
     <string name="exercises">Ejercicios</string>
     <string name="extras">Extras</string>
+    <string name="developers">Desarrolladores</string>
+    <string name="vanessa">Vanessa</string>
+    <string name="carlos">Carlos Arriaga</string>
+    <string name="rente">Renteria avila</string>
+    <string name="crow">José Loredo</string>
 </resources>

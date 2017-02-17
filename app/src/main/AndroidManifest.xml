@@ -21,6 +21,11 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity
+            android:name=".about"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog">
+        </activity>
     </application>
 
 </manifest>
