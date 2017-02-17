@@ -1,6 +1,7 @@
 package com.digital.carlos.digitalplanea;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -76,8 +77,10 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.competencies) {
 
-        } else if (id == R.id.about) {
-
+        } else if (id == R.id.page) {
+            Uri uri = Uri.parse("https://digitalplanea.github.io/"); // missing 'http://' will cause crashed
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
