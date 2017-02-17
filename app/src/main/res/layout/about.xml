@@ -38,6 +38,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/vanessa"
+                android:id="@+id/vanessa"
                 android:layout_height="150dp"
                 android:layout_gravity="center" />
             <TextView
@@ -58,6 +59,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/carlos"
+                android:id="@+id/carlos"
                 android:layout_height="150dp"
                 android:layout_gravity="center" />
             <TextView
@@ -78,6 +80,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/rente"
+                android:id="@+id/rente"
                 android:layout_height="150dp"
                 android:layout_gravity="center" />
             <TextView
@@ -98,6 +101,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:src="@drawable/crow"
+                android:id="@+id/crow"
                 android:layout_height="150dp"
                 android:layout_gravity="center" />
             <TextView
