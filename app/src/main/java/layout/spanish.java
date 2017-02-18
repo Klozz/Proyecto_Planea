@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.digital.carlos.digitalplanea.MainActivity;
 import com.digital.carlos.digitalplanea.R;
 
 public class spanish extends Fragment {
@@ -15,6 +16,16 @@ public class spanish extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_spanish, container, false);
+    }
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        super.onResume();
+
+        // Set title bar
+        ((MainActivity) getActivity())
+                .setActionBarTitle("Español");
+
     }
 
 }

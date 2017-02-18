@@ -1,11 +1,13 @@
 package layout;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.digital.carlos.digitalplanea.MainActivity;
 import com.digital.carlos.digitalplanea.R;
 
 public class competencies extends Fragment {
@@ -15,6 +17,17 @@ public class competencies extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_competencies, container, false);
+
+    }
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+            super.onResume();
+
+            // Set title bar
+            ((MainActivity) getActivity())
+                    .setActionBarTitle("Competencias");
+
     }
 
 }
