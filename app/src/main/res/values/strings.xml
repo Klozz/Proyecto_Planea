@@ -18,5 +18,9 @@
     <string name="rente">Renteria avila</string>
     <string name="crow">José Loredo</string>
     <string name="home">Home</string>
-
+    <string name="welcome">Welcome</string>
+    <string name="what">° What is Digital Planea?</string>
+    <string name="planea">It is the Application that leads high school students to evaluate their knowledge of Language and Communication (Reading Comprehension) and Mathematics. For a financial improvement of the knowledge of the High School.</string>
+    <string name="specs">° Characteristics</string>
+    <string name="specs2">It is an objective and standardized test that is aligned to the Common Curricular Framework, in particular to the disciplinary fields associated with the competences of Language and Communication (Reading Comprehension) and Mathematics. It consists of 110 multiple choice reagents, 50 that evaluate Language and Communication (Reading Comprehension) and 60 Mathematics. It is a test that is NOT designed to draw conclusions about the performance of schools or teachers and where their results should NOT have academic or other consequences for students, their schools or teachers. It is a diagnostic test, it is NOT a selection test for admission to higher education institutions. It presents contextualized results retrieving information from the context questionnaires that are applied to the national sample, which incorporate the evaluation of non-cognitive skills related to school coexistence.</string>
 </resources>

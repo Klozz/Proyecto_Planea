@@ -16,4 +16,9 @@
     <string name="rente">Renteria avila</string>
     <string name="crow">José Loredo</string>
     <string name="home">Inicio</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="what">° ¿Que es Digital Planea?</string>
+    <string name="planea">Es la Aplicación que lleva a los alumnos de escuela media superior a evaluar sus conocimientos de Lenguaje y Comunicación (Comprensión Lectora) y Matemáticas. Para una mejora circunstancial de los conocimientos de escuela Medio Superior.</string>
+    <string name="specs">° Características</string>
+    <string name="specs2">Es una prueba objetiva y estandarizada que está alineada al Marco Curricular Común, en particular a los campos disciplinares asociados con las competencias de Lenguaje y Comunicación (Comprensión Lectora) y Matemáticas. Está conformada por 110 reactivos de opción múltiple, 50 que evalúan Lenguaje y Comunicación (Comprensión Lectora) y 60 de Matemáticas. Es una prueba criterial que NO está diseñada para derivar conclusiones al respecto del desempeño de las escuelas o los docentes y donde sus resultados NO deben tener consecuencias académicas o de otro tipo para los estudiantes, sus escuelas o los docentes. Es una prueba de diagnóstico, NO es una prueba de selección para el ingreso a instituciones de Educación Superior. Presenta resultados contextualizados recuperando la información de los cuestionarios de contexto que se aplican a la muestra nacional, mismos que incorporan la evaluación de habilidades no cognitivas relacionadas con la convivencia escolar.</string>
 </resources>
