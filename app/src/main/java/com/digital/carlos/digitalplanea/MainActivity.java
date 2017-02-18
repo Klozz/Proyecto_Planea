@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import layout.competencies;
+import layout.home;
 import layout.math;
 import layout.spanish;
 
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        onNavigationItemSelected(navigationView.getMenu().findItem(R.id.home));
     }
 
     @Override
@@ -80,7 +82,9 @@ public class MainActivity extends AppCompatActivity
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
         Fragment fragment = new Fragment();
-        if (id == R.id.math) {
+        if (id == R.id.home) {
+            fragment = new home();
+        }else if(id == R.id.math) {
             fragment = new math();
         } else if (id == R.id.spanish) {
             fragment = new spanish();

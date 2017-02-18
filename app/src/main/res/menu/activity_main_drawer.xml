@@ -4,6 +4,14 @@
     <item android:title="@string/exercises">
         <menu>
             <item
+                android:id="@+id/home"
+                android:title="@string/home" />>
+        </menu>
+    </item>
+
+    <item android:title="@string/exercises">
+        <menu>
+            <item
                 android:id="@+id/math"
                 android:title="@string/math" />
             <item
