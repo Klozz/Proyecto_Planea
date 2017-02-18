@@ -23,4 +23,17 @@
     <string name="planea">It is the Application that leads high school students to evaluate their knowledge of Language and Communication (Reading Comprehension) and Mathematics. For a financial improvement of the knowledge of the High School.</string>
     <string name="specs">° Characteristics</string>
     <string name="specs2">It is an objective and standardized test that is aligned to the Common Curricular Framework, in particular to the disciplinary fields associated with the competences of Language and Communication (Reading Comprehension) and Mathematics. It consists of 110 multiple choice reagents, 50 that evaluate Language and Communication (Reading Comprehension) and 60 Mathematics. It is a test that is NOT designed to draw conclusions about the performance of schools or teachers and where their results should NOT have academic or other consequences for students, their schools or teachers. It is a diagnostic test, it is NOT a selection test for admission to higher education institutions. It presents contextualized results retrieving information from the context questionnaires that are applied to the national sample, which incorporate the evaluation of non-cognitive skills related to school coexistence.</string>
+    <string name="generic">° Generic</string>
+    <string name="g1">1. For the student must learn by initiative and self interest throughout his life.</string>
+    <string name="g2">2. Define goals and follow up on various processes for the construction of knowledge.</string>
+    <string name="g3">3. Identify the activities that are of lesser and greater interest and difficulty, recognizing and controlling their reactions to challenges and obstacles.</string>
+    <string name="g4">4. Articulate knowledge from various fields and establish relationships between them and their daily lives.</string>
+    <string name="g5">5. Listen, interpret and issue relevant messages in different contexts through the use of appropriate media, codes and tools.</string>
+    <string name="professionals">° Professionals</string>
+    <string name="p1">1. That the student put his logical-mathematical and linguistic abilities into practice in a simple and easy way.</string>
+    <string name="p2">2. That you plan to be one more method for all those self-taught in search of topics and new knowledge.</string>
+    <string name="p3">3. Make use of ICT as teaching and learning tools.</string>
+    <string name="p4">4. Create in the student a profile of real and potential skills and abilities that must be developed thanks to the included exercises.</string>
+    <string name="p5">5. It aims to improve the quality of education.</string>
+
 </resources>

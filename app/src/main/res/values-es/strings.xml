@@ -21,4 +21,16 @@
     <string name="planea">Es la Aplicación que lleva a los alumnos de escuela media superior a evaluar sus conocimientos de Lenguaje y Comunicación (Comprensión Lectora) y Matemáticas. Para una mejora circunstancial de los conocimientos de escuela Medio Superior.</string>
     <string name="specs">° Características</string>
     <string name="specs2">Es una prueba objetiva y estandarizada que está alineada al Marco Curricular Común, en particular a los campos disciplinares asociados con las competencias de Lenguaje y Comunicación (Comprensión Lectora) y Matemáticas. Está conformada por 110 reactivos de opción múltiple, 50 que evalúan Lenguaje y Comunicación (Comprensión Lectora) y 60 de Matemáticas. Es una prueba criterial que NO está diseñada para derivar conclusiones al respecto del desempeño de las escuelas o los docentes y donde sus resultados NO deben tener consecuencias académicas o de otro tipo para los estudiantes, sus escuelas o los docentes. Es una prueba de diagnóstico, NO es una prueba de selección para el ingreso a instituciones de Educación Superior. Presenta resultados contextualizados recuperando la información de los cuestionarios de contexto que se aplican a la muestra nacional, mismos que incorporan la evaluación de habilidades no cognitivas relacionadas con la convivencia escolar.</string>
+    <string name="generic">° Genéricas</string>
+    <string name="g1">"1. Pues el alumno debe aprender por iniciativa e interés propio a lo largo de su vida. "</string>
+    <string name="g2">"2. Definir metas y dar seguimiento a diversos procesos para la construcción del conocimiento. "</string>
+    <string name="g3">3. Identificar las actividades que le resultan de menor y mayor interés y dificultad, reconociendo y controlando sus reacciones frente a retos y obstáculos.</string>
+    <string name="g4">4. Articular saberes de diversos campos y establecer relaciones entre ellos y su vida cotidiana.</string>
+    <string name="g5">5. Escuchar, interpretar y emitir mensajes pertinentes en distintos contextos mediante la utilización de medios, códigos y herramientas apropiados.</string>
+    <string name="professionals">° Profesionales</string>
+    <string name="p1">1. Que el alumno ponga en práctica sus habilidades lógico-matemáticas y lingüísticas de forma exitosa, de una manera fácil y sencilla.</string>
+    <string name="p2">2. Que planea sea un método más para todos aquellos autodidactas en busca de repaso de los temas y nuevos conocimientos.</string>
+    <string name="p3">3. Hacer uso de las TIC’s como herramientas de enseñanza y aprendizaje.</string>
+    <string name="p4">4. Crear en el alumno un perfil de habilidades y destrezas reales y potenciales que se deben desarrollar gracias a los ejercicios incluidos.</string>
+    <string name="p5">5. Pretende mejorar la calidad de la educación.</string>
 </resources>
