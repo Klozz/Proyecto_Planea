@@ -15,31 +15,30 @@ import android.view.Window;
 
 public class SplashScreenActivity extends Activity {
 
-    // Set the duration of the splash screen
+    // Colocando duración de la screenplash.
     private static final long SPLASH_SCREEN_DELAY = 4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Set portrait orientation
+        // Colocando la orientación de la ScreenSplash.
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        // Hide title bar
+        // Ocultando titúlo de la barra.
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-
+        // Mostrando nueva actividad.
         setContentView(R.layout.splash_screen);
-
+        // Usando relog de tiempo.
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
 
-                // Start the next activity
+                // Iniciando la actividad principal
                 Intent mainIntent = new Intent().setClass(
                         SplashScreenActivity.this, MainActivity.class);
                 startActivity(mainIntent);
 
-                // Close the activity so the user won't able to go back this
-                // activity pressing Back button
+                // Cerrando ScreenSplash
                 finish();
             }
         };

@@ -16,9 +16,9 @@ public class about extends Activity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            // show new activity
+            // Mostrando nueva actividad.
             setContentView(R.layout.about);
-            // set profile Vanessa Linares
+            // Colocando perfil - Vanessa Linares
             ImageView vanessa = (ImageView)findViewById(R.id.vanessa);
             vanessa.setOnClickListener(new View.OnClickListener(){
                 public void onClick(View v){
@@ -29,7 +29,7 @@ public class about extends Activity {
                     startActivity(intent);
                 }
             });
-            // set profile Carlos Arriaga
+            // Colocando perfil - Carlos Arriaga
             ImageView carlos = (ImageView)findViewById(R.id.carlos);
             carlos.setOnClickListener(new View.OnClickListener(){
                 public void onClick(View v){
@@ -40,7 +40,7 @@ public class about extends Activity {
                     startActivity(intent);
                 }
             });
-            // set profile Jośe renteria
+            // Colocando perfil - Jośe renteria
             ImageView rente = (ImageView)findViewById(R.id.rente);
             rente.setOnClickListener(new View.OnClickListener(){
                 public void onClick(View v){
@@ -51,7 +51,7 @@ public class about extends Activity {
                     startActivity(intent);
                 }
             });
-            // set profile José Loredo
+            // Colocando perfil - José Loredo
             ImageView crow = (ImageView)findViewById(R.id.crow);
             crow.setOnClickListener(new View.OnClickListener(){
                 public void onClick(View v){
@@ -65,5 +65,5 @@ public class about extends Activity {
 
         }
 
-} // end class
+} // fin de la clase
 

@@ -22,7 +22,7 @@ public class math extends Fragment {
         super.onCreate(savedInstanceState);
         super.onResume();
 
-        // Set title bar
+        // Colocando titulo en barra
         ((MainActivity) getActivity())
                 .setActionBarTitle("Matemáticas");
 

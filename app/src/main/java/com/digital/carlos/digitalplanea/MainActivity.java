@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        // Usando fragment_home por defecto al abrir la aplicación.
         onNavigationItemSelected(navigationView.getMenu().findItem(R.id.home));
     }
 
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+                    // Llamando la actividad about.
                     startActivity(new Intent(MainActivity.this, about.class));
             return true;
         }
@@ -79,18 +81,27 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        // Integrando soporte de Librerias FragmentManager y Fragment.
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction transaction = manager.beginTransaction();
         Fragment fragment = new Fragment();
+        /* Usando ciclo IF para comprobar que actividad
+        * se llamara al dar clic en la navbar (Támbien
+        * podemos usar el método CASE */
         if (id == R.id.home) {
+            // Llamando fragment home
             fragment = new home();
         }else if(id == R.id.math) {
+            // Llamando fragment math
             fragment = new math();
         } else if (id == R.id.spanish) {
+            // Llamando fragment spanish
             fragment = new spanish();
         } else if (id == R.id.competencies) {
+            // Llamando fragment competencies
             fragment = new competencies();
         } else if (id == R.id.page) {
+            // Usando metódo URI para abrir un enlace en el navegador.
             Uri uri = Uri.parse("https://digitalplanea.github.io/"); // missing 'http://' will cause crashed
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
@@ -103,7 +114,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
+    // Integrando clase para poder usar Titúlo custom en un la Toolbar.
     public void setActionBarTitle(String title) {
         getSupportActionBar().setTitle(title);
     }
