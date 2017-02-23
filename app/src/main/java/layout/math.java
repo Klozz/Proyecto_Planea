@@ -5,13 +5,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TabHost;
-
 import com.digital.carlos.digitalplanea.MainActivity;
 import com.digital.carlos.digitalplanea.R;
 
 public class math extends Fragment {
-    TabHost mTabHost;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
