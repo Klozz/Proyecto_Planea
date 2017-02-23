@@ -36,4 +36,7 @@
     <string name="p4">4. Create in the student a profile of real and potential skills and abilities that must be developed thanks to the included exercises.</string>
     <string name="p5">5. It aims to improve the quality of education.</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
